@@ -15,7 +15,7 @@ def test_guest_can_go_to_login_page(browser):
     page.go_to_login_page()
 
 
-def test_guest_can_add_to_basket(browser):
+def test_guest_can_go_to_basket(browser):
     link = "http://selenium1py.pythonanywhere.com/"
     page = MainPage(browser, link)
     page.open()
