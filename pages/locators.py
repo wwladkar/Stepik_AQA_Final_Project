@@ -13,8 +13,8 @@ class LoginPageLocators:
 
 class ProductPageLocators:
     ADD_TO_BASKET_LINK = (By.CSS_SELECTOR, ".btn-add-to-basket")
-    NAME_OF_PRODUCT_ON_PAGE = (By.CSS_SELECTOR, ".breadcrumb > .active")
-    NAME_OF_PRODUCT_ON_MESSAGE = (By.CSS_SELECTOR, "#messages div:nth-child(1) strong")
+    NAME_OF_PRODUCT_ON_PAGE = (By.CSS_SELECTOR, ".breadcrumb li:nth-of-type(5)")
+    NAME_OF_PRODUCT_ON_MESSAGE = (By.CSS_SELECTOR, "#messages > div:nth-of-type(1) strong")
     PRICE_OF_PRODUCT = (By.CSS_SELECTOR, "[class='col-sm-6 product_main'] .price_color")
     PRICE_OF_BASKET = (By.CSS_SELECTOR, "#messages div:nth-of-type(3) strong")
 
